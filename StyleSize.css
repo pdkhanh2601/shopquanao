@@ -1,0 +1,15 @@
+﻿table {
+    border-color: aquamarine;
+    width: 70%;
+    font-weight: 800;
+    text-align: center;
+}
+
+tr:first-child {
+    background-color: cadetblue;
+    color: white;
+}
+.bang {
+    background-color: darkcyan;
+
+

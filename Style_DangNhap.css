@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background:#616166;
+}
+.wrapper{
+    width: 380px;
+    background: rgb(248, 250, 249);
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px black;
+}
+.wrapper .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(20, 19, 19);
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background:#f6f6f7;
+}
+.wrapper form{
+    padding: 10px 30px 50px 30px;
+}
+.wrapper form .nut{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.wrapper form .nut input,
+.wrapper form .nut button{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid rgb(76, 80, 78);
+    border-radius: 25px;
+}
+.remember-me{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content{
+    position: relative;
+}
+
+.forgot{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.forgot a,.register a{
+    text-decoration: none;
+    color: #da5050;
+}
+.register{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.wrapper form .nut button:active{
+    transform: scale(0.95); 
+}
+.wrapper form .nut button{
+    background: linear-gradient(-135deg, rgb(247, 245, 242), rgb(167, 250, 167));
+    color: rgb(19, 18, 18);
+}

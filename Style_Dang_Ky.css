@@ -1,0 +1,39 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    margin-left: 35%;
+    margin-top: 2%;
+    padding-bottom: 100px;
+    font-weight: 900;
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);
+    background:rgb(54, 52, 52);
+}
+
+form {
+    margin: 30px;
+}
+
+.nut {
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(116, 212, 150);
+}
+
+h1 {
+    text-align: center;
+}
+
+.khung {
+    border: 4px double rgb(248, 245, 245);
+    width: 400px;
+    box-shadow: 2px 2px 50px rgb(81, 83, 81);
+    background: rgb(241, 236, 236);;
+}
+.k{
+    width: 350px;
+}
+
